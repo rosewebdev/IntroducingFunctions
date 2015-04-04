@@ -20,8 +20,6 @@
     // Insert code here...
     
     NSString *myName = @"Jason";
-    NSString *introduction = [NSString stringWithFormat:@"My name is %@", myName];
-    NSString *japaneseIntroduction = [introduction stringByAppendingString:@" to moushimasu"];
     NSLog(@"%@", introduction);
     NSLog(@"%@", japaneseIntroduction);
     
@@ -31,7 +29,8 @@
 
 // Define new functions here...
 - (void)printIntroductions:(NSString *)name {
-    
+    NSString *introduction = [NSString stringWithFormat:@"My name is %@", myName];
+    NSString *japaneseIntroduction = [introduction stringByAppendingString:@" to moushimasu"];
 }
 
 
