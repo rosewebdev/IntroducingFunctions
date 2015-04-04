@@ -34,5 +34,8 @@
     NSLog(@"%@", japaneseIntroduction);
 }
 
+- (void)countDownTillIntroductions:(int) numberOfDays {
+    
+}
 
 @end
