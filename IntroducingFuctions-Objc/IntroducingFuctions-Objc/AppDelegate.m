@@ -19,6 +19,8 @@
 
     // Insert code here...
     
+    NSString *myName = @"Jason";
+    
     
     return YES;
 }
