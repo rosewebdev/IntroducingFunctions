@@ -20,6 +20,7 @@
     // Insert code here...
     
     NSString *myName = @"Jason";
+    [self printIntroductions:myName];
     NSLog(@"%@", introduction);
     NSLog(@"%@", japaneseIntroduction);
     
