@@ -35,7 +35,13 @@
 }
 
 - (void)countDownTillIntroductions:(int) numberOfDays {
-    
+    if (numberOfDays == 0) {
+        NSLog(@"The time has come.");
+    } else {
+        NSLog(@"%d days left until introductions.", numberOfDays);
+        int oneLessDay = numberOfDays - 1;
+        [self countDownTillIntroductions:oneLessDay];
+    }
 }
 
 @end
