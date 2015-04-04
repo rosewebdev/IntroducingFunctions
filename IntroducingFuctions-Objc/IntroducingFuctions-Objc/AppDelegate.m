@@ -20,8 +20,10 @@
     // Insert code here...
     
     NSString *myName = @"Jason";
-    NSString *introduction = [NSString stringWithFormat:@"My name is %@.", myName];
+    NSString *introduction = [NSString stringWithFormat:@"My name is %@", myName];
     NSString *japaneseIntroduction = [introduction stringByAppendingString:@" to moushimasu"];
+    NSLog(@"%@", introduction);
+    NSLog(@"%@", japaneseIntroduction);
     
     
     return YES;
