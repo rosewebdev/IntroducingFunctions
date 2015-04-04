@@ -20,6 +20,7 @@
     // Insert code here...
     
     NSString *myName = @"Jason";
+    [self countDownTillIntroductions:4];
     [self printIntroductions:myName];
     
     
