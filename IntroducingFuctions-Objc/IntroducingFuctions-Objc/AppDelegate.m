@@ -29,7 +29,7 @@
 
 // Define new functions here...
 - (void)printIntroductions:(NSString *)name {
-    NSString *introduction = [NSString stringWithFormat:@"My name is %@", myName];
+    NSString *introduction = [NSString stringWithFormat:@"My name is %@", name];
     NSString *japaneseIntroduction = [introduction stringByAppendingString:@" to moushimasu"];
 }
 
